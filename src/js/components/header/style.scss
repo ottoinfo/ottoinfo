@@ -1,0 +1,14 @@
+.nav {
+  color: $color;
+  @include flex_layout();
+  @include flex_items();
+}
+
+.spacer {
+  flex-grow: 2;
+}
+
+.logo {
+  @extend .osb;
+  font-size: 2em;
+}

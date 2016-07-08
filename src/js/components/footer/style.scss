@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  @include flex_layout();
+  @include flex_items();
+  justify-content: center;
+  align-self: flex-end;
+}

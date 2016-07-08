@@ -1,0 +1,12 @@
+.information {
+  color: $color;
+  @include flex_layout();
+  @include flex_items();
+  justify-content: center;
+  align-self: flex-end;
+  flex-grow: 2;
+}
+
+.spacer {
+  flex-grow: 2;
+}
